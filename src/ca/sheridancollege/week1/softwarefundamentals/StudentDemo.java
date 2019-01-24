@@ -16,6 +16,7 @@ public class StudentDemo {
 
     private String name;
     private int ID;
+    private int MacCourses;
     
     //constructor
     public StudentDemo(String givenName)
@@ -48,6 +49,20 @@ public class StudentDemo {
      */
     public void setID(int givenID) {
         this.ID = givenID;
+    }
+
+    /**
+     * @return the MacCourses
+     */
+    public int getMacCourses() {
+        return MacCourses;
+    }
+
+    /**
+     * @param MacCourses the MacCourses to set
+     */
+    public void setMacCourses(int MacCourses) {
+        this.MacCourses = MacCourses;
     }
     
     
